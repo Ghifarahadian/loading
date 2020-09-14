@@ -6,6 +6,6 @@ It uses pyspark RDD for the computation to allow a cluster of computers to compu
 The TF-IDF score is computed by following this formula:
 (1 + log (TF)) * log (N/DF)
 
-N: total documents
-TF: number of word in document
-DF: number of documents having the word
+* N: total documents
+* TF: number of word in document
+* DF: number of documents having the word
