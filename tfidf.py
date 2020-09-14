@@ -14,7 +14,7 @@ def natural_keys(text):
 def split_line(line):
     return re.findall('[A-Za-z\']+(?:\`[A-Za-z]+)?',line)
 
-INPUT_DIR = "lab2 input"
+INPUT_DIR = "input"
 STOPWORDS_FILE = "stopwords.txt"
 QUERY_FILE = "query.txt"
 
